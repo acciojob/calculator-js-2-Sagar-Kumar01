@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-#container {
+#display {
     height: 600px; 
     width: 400px; 
     border: 1px solid black;
@@ -8,11 +8,11 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
-#container > div {
+#display > div {
     border: 1px solid black;
 	text-align:center;
 }
 
-#container :first-child {
+#display :first-child {
     grid-column: 1 /-1;
 }
